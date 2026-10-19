@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+target/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# MySQL
+*.sql.bak
+
+# Secrets and local credentials
+.env.*
+!.env.example
+cookies.txt
+*.pem
+*.key
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.sql.bak
+
+# Test and temporary output
+coverage/
+.nyc_output/
